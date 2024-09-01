@@ -1,0 +1,258 @@
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body {
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: #1b1b32;
+  color: #0a0a23;
+}
+
+h1 {
+  color: #f5f6f7;
+  font-size: 1.7em;
+  text-align: center;
+}
+
+.container {
+  width: 325px;
+  margin: 25px 0;
+  background-color: #f5f6f7;
+  border: 1px solid #f5f6f7;
+  border-radius: 15px;
+  box-shadow: 10px 10px 0px 0px rgba(223, 220, 220, 0.75);
+}
+
+label {
+  align-self: center;
+}
+
+form {
+  display: flex;
+}
+
+div {
+  display: block;
+}
+
+#search-form,
+.top-container,
+.bottom-container {
+  width: 95%;
+}
+
+.output,
+#search-form {
+  display: flex;
+  justify-content: center;
+}
+
+#search-form {
+  flex-wrap: wrap;
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 8px 8px 0 0;
+  gap: 10px;
+}
+
+#search-input {
+  height: 40px;
+  padding-left: 10px;
+  width: 200px;
+}
+
+#search-button {
+  padding: 14px 0;
+  width: 80px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #7f21ab;
+  color: #f5f6f7;
+  border: none;
+}
+
+.output {
+  margin: 10px 0;
+  padding: 5px;
+  flex-direction: column;
+  align-items: center;
+}
+.output,
+#search-form {
+  display: flex;
+  justify-content: center;
+}
+
+.output {
+  margin: 10px 0;
+  padding: 5px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-container {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f0f1f7;
+}
+
+.top-container,
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  min-height: 325px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Định dạng cho các cột cụ thể */
+#hp {
+  color: #ff0000; /* Màu đỏ cho HP */
+}
+
+#attack {
+  color: #00ff00; /* Màu xanh lá cây cho Attack */
+}
+
+#defense {
+  color: #0000ff; /* Màu xanh dương cho Defense */
+}
+
+#special-attack {
+  color: #ff9900; /* Màu cam cho Special Attack */
+}
+
+#special-defense {
+  color: #9933cc; /* Màu tím cho Special Defense */
+}
+
+.speed {
+  font-weight: bold; /* In đậm cho Speed */
+}
+
+.normal {
+  background-color: #b7b7aa;
+}
+
+.fire {
+  background-color: #ff6f52;
+}
+
+.water {
+  background-color: #42a1ff;
+}
+
+.electric {
+  background-color: #fecc33;
+}
+
+.grass {
+  background-color: #78cc55;
+}
+
+.ice {
+  background-color: #66ccfe;
+}
+
+.fighting {
+  background-color: #d3887e;
+}
+
+.poison {
+  background-color: #c68bb7;
+}
+
+.ground {
+  background-color: #dfba52;
+}
+
+.flying {
+  background-color: #8899ff;
+}
+
+.psychic {
+  background-color: #ff66a3;
+}
+
+.bug {
+  background-color: #aabb23;
+}
+
+.rock {
+  background-color: #baaa66;
+}
+
+.ghost {
+  background-color: #9995d0;
+}
+
+.dragon {
+  background-color: #b59682;
+}
+
+.steel {
+  background-color: #abaabb;
+}
+
+.fairy {
+  background-color: #ed99ed;
+}
+
+.name-and-id {
+  height: 28px;
+  font-size: 1.1.rem;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.size {
+  height: 22px;
+  font-size: 0.85rem;
+}
+
+.sprite-container {
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sprite {
+  width: 180px;
+}
+
+#types {
+  min-height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.type {
+  width: 66px;
+  padding: 5px;
+  font-size: 0.7rem;
+  text-align: center;
+  text-transform: uppercase;
+}
